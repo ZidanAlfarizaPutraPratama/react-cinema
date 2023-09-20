@@ -4,9 +4,11 @@ import {
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import userSlice from '../Features/Auth/userSlice';
+import loadingSlice from '../Features/Common/loadingSlice';
 
 export const rootReducers = combineReducers({
-    user: userSlice
+    user: userSlice,
+    loading: loadingSlice
 });
 
 const persistConfig = {

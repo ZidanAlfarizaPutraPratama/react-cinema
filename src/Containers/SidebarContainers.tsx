@@ -15,7 +15,7 @@ const SidebarContainers = ({menuToggled, changeMenuToggled}: iSidebarContainers)
     <Sidebar
      onBackdropClick={() => changeMenuToggled()}
      toggled={menuToggled}
-     breakPoint='always'
+     breakPoint='all'
      rootStyles={{
       background: "white",
       opacity: 1

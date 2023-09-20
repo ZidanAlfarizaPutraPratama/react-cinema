@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 
 const PageContainers = () => {
   return (
-    <main className="vh-100 vw-100">
+    <main className="vh-100 vw-100 px-5 py-3">
         <Suspense fallback={<SuspenseContainer />}>
             <Routes>
                 {
