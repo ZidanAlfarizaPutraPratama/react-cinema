@@ -13,7 +13,7 @@ const initialState: UserState = {
     username: "",
     name: "",
     img_url: "",
-    access_token: "",
+    access_token: "Check Ada Token Lur",
     level: ""
 }
 
